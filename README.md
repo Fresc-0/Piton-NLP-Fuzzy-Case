@@ -185,6 +185,7 @@ D) Bulanık Mantık Skoru İş Odaklı Nasıl Kullanılır?
 Bulanık Mantıktan elde edilen Yorum Güvenilirlik Skoru, makine öğrenmesi modelinin tahmin olasılıklarıyla (predict_proba) çarpılarak dinamik bir "Platform Ağırlıklandırma Sistemi" kurulabilir. Örneğin; bir yorum olumlu bulunsa dahi, eğer kelime sayısı yetersizse veya çok eski bir tarihe aitse güvenilirlik skoru (örn: %20) düşük çıkacaktır. Bu skor yapay zeka çıktısını baskılayarak manipülatif (sahte) yorumların ürün listeleme sayfalarında en üst sıralara tırmanmasını otomatik olarak engeller.
 
 🚀 6. "Haftanın Öne Çıkan Şikayetleri" Pipeline Taslağı
+
 Platformda satılan ürünlerin haftalık kronik problemlerini otomatik olarak özetleyecek sistem mimarisi şu adımlarla tasarlanmıştır:
 
 Zaman Filtresi: Veritabanından son 7 gün içerisinde yazılmış ve yıldız puanı 1 veya 2 (olumsuz) olan tüm müşteri yorumları filtrelenerek boru hattına (pipeline) alınır.
