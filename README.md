@@ -35,8 +35,11 @@ Piton_Case_Project/
 📉 3. Veri Görselleştirme Sonuçları (Exploratory Data Analysis)
 Veri setindeki sınıf dengesizliğini ve yorum yapılarını anlamak adına üretilen grafikler aşağıda sunulmuştur:
 
-A) Yıldız Puanlarının Dağılımı
-B) Yorum Uzunluğu Dağılımı
+### A) Yıldız Puanlarının Dağılımı
+![Yıldız Puanlarının Dağılımı](puan_dagilimi.png)
+
+### B) Yorum Uzunluğu Dağılımı
+![Yorum Uzunluğu Dağılımı](yorum_uzunlugu.png)
 
 💻 4. TÜM PROJE KAYNAK KODLARI (Uçtan Uca Akış)
 ```python
