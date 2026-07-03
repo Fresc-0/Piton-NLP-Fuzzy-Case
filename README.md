@@ -22,7 +22,11 @@ Gerekli dil paketlerini Python ortamına tanımlayın:
 ```bash
 python -c "import nltk; nltk.download('stopwords'); nltk.download('wordnet')"
 ```
-
+🚀 İnteraktif Web Arayüzünü Başlatma (Streamlit)
+Geliştirilen interaktif web uygulamasını yerel tarayıcınızda çalıştırmak için sanal ortamınız aktifken şu komutu koşturmanız yeterlidir:
+```bash
+streamlit run app.py
+```
 📊 2. Klasör Yapısı
 ```python
 Piton_Case_Project/
@@ -30,6 +34,9 @@ Piton_Case_Project/
 ├── venv/                  # Python Sanal Ortam Dosyaları
 ├── Reviews.csv            # Amazon Müşteri Yorumları Veri Seti (Veri Kaynağı)
 ├── analysis.ipynb         # Model Doğrulama ve Test Hücreleri
+├── app.py                 # Streamlit İnteraktif Web Uygulaması Kaynak Kodu
+├── puan_dagilimi.png      # Yıldız Puanı Dağılım Grafiği
+├── yorum_uzunlugu.png     # Yorum Uzunluğu Dağılım Grafiği
 └── README.md              # Entegre Proje Kodları ve Teknik Analiz Raporu
 ```
 📉 3. Veri Görselleştirme Sonuçları (Exploratory Data Analysis)
